@@ -7,8 +7,8 @@
 	<groupId>com.solvd.laba</groupId>
 	<artifactId>events</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>events</name>
-	<description>Events project</description>
+	<name>user-service</name>
+	<description>User Microservice</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
