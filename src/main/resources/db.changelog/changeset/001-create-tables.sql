@@ -2,8 +2,8 @@
 
 --changeset vpetrovaa:create_tables
 
-create schema if not exists notes;
-set schema 'notes';
+create schema if not exists notes-schema;
+set schema 'notes-schema';
 
 create table users
 (
