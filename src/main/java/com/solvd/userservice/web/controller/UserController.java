@@ -25,9 +25,9 @@ public class UserController {
         return userDto;
     }
 
-    @GetMapping("/{email}")
-    public boolean isExistByEmail(@PathVariable String email) {
-        return userService.isExistByEmail(email);
+    @GetMapping("/{id}")
+    public boolean isExistById(@PathVariable Long id) {
+        return userService.isExistById(id);
     }
 
 }
