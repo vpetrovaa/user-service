@@ -6,6 +6,6 @@ public interface UserService {
 
     User create(User user);
 
-    boolean isExistByEmail(String email);
+    boolean isExistById(Long id);
 
 }

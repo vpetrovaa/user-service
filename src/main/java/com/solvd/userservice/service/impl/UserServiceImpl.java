@@ -25,8 +25,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean isExistByEmail(String email) {
-        return userRepository.existsByEmail(email);
+    public boolean isExistById(Long id) {
+        return userRepository.existsById(id);
     }
 
 }
