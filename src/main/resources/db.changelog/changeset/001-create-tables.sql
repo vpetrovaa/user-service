@@ -1,11 +1,11 @@
 --liquibase formatted sql
 
---changeset vpetrovaa:create_tables
+--changeset vpetrovaa:create_user_tables
 
-create schema if not exists notes-schema;
-set schema 'notes-schema';
+create schema if not exists notes_schema;
+set schema 'notes_schema';
 
-create table users
+create table if not exists users
 (
     id bigserial,
 	email varchar(45) not null unique,
