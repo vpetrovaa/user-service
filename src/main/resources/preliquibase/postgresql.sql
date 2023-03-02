@@ -1,2 +1,2 @@
-create schema if not exists notes;
-set schema 'notes-schema';
+create schema if not exists notes_schema;
+set schema 'notes_schema';
