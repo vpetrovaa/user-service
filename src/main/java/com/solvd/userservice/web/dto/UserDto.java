@@ -8,7 +8,6 @@ import org.hibernate.validator.constraints.Length;
 @Data
 public class UserDto {
 
-    @NotNull(message = "Id is required")
     private Long id;
 
     @NotNull(message = "Email is required")
